@@ -60,7 +60,7 @@ function show_login_page($message = "HASTALAVISTA~")
 }
 
 if (!isset($_SESSION['authenticated'])) {
-    $stored_hashed_password = '$2y$10$qTyMEaC0YuoKBQ16rWlxke3.wg2A8la4BNDXszMOtKHMZI0SoJm5i';
+    $stored_hashed_password = '$2y$10$938If2tdOy9WakwQ71/h2ecPnQWdlEFpAJesVUp1bVG0e9ISf6G/.';
 
     if (isset($_POST['pass']) && password_verify($_POST['pass'], $stored_hashed_password)) {
         $_SESSION['authenticated'] = true;
